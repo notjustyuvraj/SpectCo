@@ -1,0 +1,14 @@
+# SpeakEasy V1 — Python dependencies
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# Notes:
+#   - faster-whisper replaces openai-whisper for 3-4x less RAM and
+#     2-3x faster CPU inference at the same accuracy.
+#   - PyQt6 >= 6.4 required for QThread.wait() returning bool.
+
+PyQt6>=6.4.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+faster-whisper>=1.0.0
